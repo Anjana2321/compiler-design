@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+	int n,i,f;
+	char a[100],b[100];
+	printf("enter the number of productions: ");
+	scanf("%d",&n);
+	printf("enter the production 1:");
+	scanf("%s",&a);
+	printf("enter the production 2:");
+	scanf("%s",&b);
+	printf("enter the variable to find: ");
+	scanf("%d",f);
+	if(f=a[0])
+	{
+		printf("first of %c is: ",f);
+		printf("%c",a[3]);
+	}
+	else if(f=b[0])
+	{
+		printf("first of % c is %c: ",b[0],a[0]);
+		printf("%c",a[3]);
+	}
+	else
+	{
+		printf("enter the valid variable");
+	}
+}
